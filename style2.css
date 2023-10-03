@@ -1,0 +1,66 @@
+
+.fontll{
+	font-size: 35px;
+}
+/*.borderEdit{
+	border: none;
+	box-shadow:5px 5px 10px #ebebeb;
+    background-color: #ffffff;
+}*/
+.makeSticky{
+	position: -webkit-sticky;
+	position: sticky; 
+	top: 0;
+	z-index: 2;
+	padding: 0;
+    margin: 0;
+}
+.moveIcon{
+	margin-right: 20px;
+}
+.lapAdjust{
+	margin-top: 150px;
+}
+.aboutAdjust{
+	padding-left: 290px
+}
+.iAmAdjust{
+	padding-left: 43px;
+	font-size: 20px;
+	color:#96816e;
+}
+.aboutMeButton{
+	margin-left: 87px;
+	margin-top: 20px;
+}
+.image-container {
+  position: relative;
+}
+
+.icon-inside-image {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 992px){
+	.moveIcon{
+		margin-left: 200px;
+	}
+	.lapAdjust{
+	  margin-top: 50px;
+    }
+    .aboutAdjust{
+	  padding-left: 100px
+    }
+    .iAmAdjust{
+	   padding-left: 4px;
+    }
+    .aboutMeButton{
+	  margin-left: 60px;
+    }
+    .onlyLapAdjust{
+    	margin-top: 30px;
+    }
+}
